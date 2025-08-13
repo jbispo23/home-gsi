@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
+  const cards = [
+    {
+      title: "Wiki",
+      desc: "Documentação viva do GSI. Padrões, tutoriais e funções.",
+      href: "https://jbispo23.github.io/wiki-egas/", // link do cadastro
+    },
+    {
+      title: "Calendário",
+      desc: "Planeamento de férias, teletrabalhos e eventos.",
+      href: "https://github.com/SEU-USUARIO/seu-repo-calendario",
+    },
+    {
+      title: "Controlo de Auditórios",
+      desc: "Reservas, equipamentos e suporte às salas especiais.",
+      href: "https://github.com/SEU-USUARIO/seu-repo-auditorios",
+    },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="home-container">
+      <h1 className="home-title">Centro de Atalhos • GSI</h1>
+      <p className="home-subtitle">Menu de Navegação</p>
+
+      <div className="card-grid">
+        {cards.map((card, i) => (
+          <a
+            key={i}
+            href={card.href}
+            target="_blank"
+            rel="noreferrer"
+            className="card"
+          >
+            <h2>{card.title}</h2>
+            <p>{card.desc}</p>
+          </a>
+        ))}
+      </div>
     </div>
   );
 }
