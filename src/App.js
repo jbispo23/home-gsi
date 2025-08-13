@@ -18,6 +18,11 @@ function App() {
       desc: "Reservas, equipamentos e suporte às salas especiais.",
       href: "https://github.com/SEU-USUARIO/seu-repo-auditorios",
     },
+      {
+      title: "Gestão de Tickets",
+      desc: "Pedidos realizados por email, telefone e presencialmente.",
+      href: "https://github.com/SEU-USUARIO/seu-repo-auditorios",
+    },
   ];
 
   return (
