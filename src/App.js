@@ -21,7 +21,7 @@ function App() {
       {
       title: "Gestão de Tickets",
       desc: "Pedidos realizados por email, telefone e presencialmente.",
-      href: "https://github.com/SEU-USUARIO/seu-repo-auditorios",
+      href: "https://gsi-tickets.web.app/",
     },
   ];
 
