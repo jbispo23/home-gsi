@@ -6,7 +6,7 @@ function App() {
     {
       title: "Wiki",
       desc: "Documentação viva do GSI. Padrões, tutoriais e funções.",
-      href: "https://jbispo23.github.io/wiki-egas/", // link do cadastro
+      href: "https://jbispo23.github.io/wiki-egas/",
     },
     {
       title: "Calendário",
