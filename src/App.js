@@ -11,7 +11,7 @@ function App() {
     {
       title: "Calendário",
       desc: "Planeamento de férias, teletrabalhos e eventos.",
-      href: "https://github.com/SEU-USUARIO/seu-repo-calendario",
+      href: "https://mairacambule.github.io/Gestao_Calendario/",
     },
     {
       title: "Controlo de Auditórios",
