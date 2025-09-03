@@ -9,6 +9,16 @@ function App() {
       href: "https://jbispo23.github.io/wiki-egas/",
     },
     {
+      title: "Ativar Aluno",
+      desc: "Ativar aluno para acesso a plataforma myagir",
+      href: "https://egasmoniz.myagir.pt/flex/RegistoAluno",
+    },
+        {
+      title: "Consultar aluno - Base Externa",
+      desc: "Verificar se o aluno esta na base externa do myagir",
+      href: "https://egasmoniz.myagir.pt/external_table.aspx?id=4",
+    },
+    {
       title: "Calendário",
       desc: "Planeamento de férias, teletrabalhos e eventos.",
       href: "https://mairacambule.github.io/Gestao_Calendario/",
