@@ -13,7 +13,27 @@ function App() {
       desc: "Ativar aluno para acesso a plataforma myagir",
       href: "https://egasmoniz.myagir.pt/flex/RegistoAluno",
     },
-        {
+    {
+      title: "Comquest",
+      desc: "Extrair os relatórios de monitorização pedagógica",
+      href: "https://seconline.egasmoniz.edu.pt/comquest/page?stage=difhomestage",
+    },
+    {
+      title: "SmartEM",
+      desc: "ERP Interno",
+      href: "https://smartem.azurewebsites.net/",
+    },
+    {
+      title: "Ticket myagir",
+      desc: "EGAS MONIZ",
+      href: "https://agirsupport.freshdesk.com/support/login",
+    },
+    {
+      title: "Ticket Digitalis",
+      desc: "abertura de tickets SIGES",
+      href: "https://www.digitalis.pt/team/page?stage=difhomestage&login_button=Login",
+    },
+    {
       title: "Consultar aluno - Base Externa",
       desc: "Verificar se o aluno esta na base externa do myagir",
       href: "https://egasmoniz.myagir.pt/external_table.aspx?id=4",
